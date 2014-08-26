@@ -1,0 +1,272 @@
+/*******************************************
+GENERAL
+********************************************/
+
+a {
+  text-decoration:none;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h3 {
+  margin: 0 0 1em 0;
+}
+
+#wrapper {
+  max-width:940px;
+  margin:0 auto;
+  padding:0 5%;
+}
+
+img {
+  max-width:100%;
+}
+
+
+
+
+
+
+
+/*******************************************
+HEADING
+********************************************/
+
+header {
+  float: left;
+  margin: 0 0 30px 0;
+  padding: 5px 0 0 0;
+  width: 100%;
+}
+
+#logo {
+  text-align:center;
+  margin:0;
+}
+
+h1 {
+  font-family: 'Changa One', cursive, sans-serif;
+  font-size:1.75em;
+  margin: 15px 0;
+  font-weight:normal;
+  line-height:0.8em;
+}
+
+h2 {
+  font-size:0.75em;
+  margin: -5px 0 0;
+  font-weight:normal;
+}
+
+
+
+
+
+
+/*******************************************
+NAVEGATION
+********************************************/
+
+nav {
+  margin: 20px 0 0;
+  text-align: center;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0 10px;
+  padding: 0;
+}
+
+
+nav ul li {
+  display: inline-block;
+}
+
+nav a {
+  font-weight: 800;
+  padding: 15px 10px;
+}
+
+
+
+
+
+/*******************************************
+FOOTER
+********************************************/
+
+footer {
+  color:#ccc;
+  clear: both;
+  font-size: 0.75em;
+  text-align: center;
+  padding-top: 50px;
+}
+
+footer .socialicon {
+  height: 20px;
+  margin: 05px;
+  width: 20px;
+}
+
+
+
+
+
+
+
+
+/*******************************************
+PAGE: PORTFOLIO
+********************************************/
+
+#gallery {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#gallery li {
+  background-color:#f5f5f5;
+  color:#bbc3c7;
+  float: left;
+  margin: 2.5%;
+  width: 45%;
+}
+
+#gallery li a p {
+  color:#bbc3c7;
+  font-size: 0.75em;
+  margin: 0;
+  padding: 5%;
+}
+
+
+
+
+
+
+/*******************************************
+PAGE: ABOUT
+********************************************/
+.profilephoto {
+  display: block;
+  max-width: 150px;
+  margin: 0 auto 30px;
+  border-radius: 100%;
+}
+
+
+
+
+
+
+/*******************************************
+PAGE: CONTACT
+********************************************/
+
+.contactinfo {
+  font-size: 0.9em;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.contactinfo a {
+  display: block;
+  margin:0 0 10px;
+  min-height: 20px;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  padding: 0 0 0 30px;
+}
+
+.contactinfo li.phone a {
+  background-image:url("../img/phone.png")
+}
+
+.contactinfo li.mail a {
+  background-image:url("../img/mail.png")
+}
+
+.contactinfo li.twitter a {
+  background-image:url("../img/twitter.png")
+}
+
+
+
+
+
+
+/*******************************************
+COLORS
+********************************************/
+
+/* site body */
+body {
+  background-color:#fff;
+  color: #999;
+}
+
+a {
+ color:#6ab47b;
+}
+
+
+/* green header */
+
+header {
+  background:#6ab47b;
+  border-color:#599a68;
+}
+
+h1, h2 {
+  color:#fff;
+}
+
+nav {
+  background:#599a68;
+}
+
+nav a, nav a:visited {
+  color:#fff;
+}
+
+nav a.selected, nav a:hover {
+  color:#32673f;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
